@@ -14,7 +14,7 @@
 }
 
 .rest-page {
-  height: 50vh;
+  height: 25vh;
 }
 
 .tours-page {
@@ -115,14 +115,17 @@
 }
 
 .footer-page-paragraph {
+  display: grid;
+  grid-template-columns: auto auto;
+}
+
+.footer-page-paragraph p {
   font-family: 'Libre Baskerville', 'Arial', sans-serif;
   padding-left: 5vw;
   padding-right: 5vw;
   font-size: 2vh;
-  font-weight: 400;
   color: #999999;
   text-align: center;
-  column-count: 2;
 }
 
 
@@ -141,6 +144,59 @@
   padding-top: 5px;
   opacity: 0.5;
   color: #777777;
+}
+
+.gallery-container {
+  display: grid;
+  gap: 3vw 1vh;
+  grid-template-columns: auto auto auto;
+}
+
+.gallery-container img {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  max-width: 30vw;
+  /* max-height: 2px; */
+}
+
+.newsletter-item {
+  width: 80vw;
+  margin: auto;
+  margin-bottom: 5vh;
+}
+
+.newsletter-date {
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: 1.5vh;
+  margin-bottom: 0.5vh;
+  color: #333333;
+}
+
+.newsletter-title {
+  font-family: 'Libre Baskerville', 'Arial', sans-serif;
+  font-size: 2vh;
+  margin-top: 0px;
+  color: #FFFFFF;
+}
+
+.newsletter-body {
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: 1.5vh;
+  color: #999999;
+}
+
+.newsletter-item a {
+  color: #FFFFFF;
+}
+
+.newsletter-image {
+  float: right;
+  width: 10vw;
+  margin-left: 10px;
+  border-color: #222222;
+  border-style: solid;
+  border-width: 2px;
 }
 
 html {
